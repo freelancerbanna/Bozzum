@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(206, 234, 243) !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Home Section Start*/
+.navbar{
+    background-color: #ffc107;
+    overflow: hidden;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.carousel-item{
+    height: 580px;
+}
+#showcase{
+    overflow: hidden;
+}
+.carousel-img-1{
+    background: url(../images/slide/s1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.carousel-img-2{
+    background: url(../images/slide/s2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.carousel-img-3{
+    background: url(../images/slide/s3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.carousel-img-4{
+    background: url(../images/slide/s4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.7);
+    min-height: 580px;
+    width: 100%;
+}
+#icon{
+    overflow: hidden;
+}
+#icon .home-icon h3{
+    color: #2a0850ad;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#icon .icon-border:hover{
+    border: 1px solid #ffc107;
+    transition: all 0.3s;
+}
+
+#get-us{
+overflow: hidden;
+}
+#get-us .get-us-holder{
+    background: url(../images/gallery/g3.jpg);
+    background-size: cover;
+    min-height: 250px;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.get-us-holder .overlay{
+        background: rgba(0,0,0,0.7);
+        min-height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+}
+
+#gallery img{
+    min-height: 250px;
+}
+#home-info{
+    background-color: #add8e68a;
+}
+#home-info img{
+    height: 300px;
+    width: 100%;
+}
+
+#home-video .video-section{
+    background: url('../images/gb.jpg');
+    min-height: 250px;
+    background-attachment: scroll;
+    position: relative;
+}
+.video-section .overlay{
+    
+        background: rgba(0,0,0,0.8);
+        min-height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+
+}
+
+.news-letter{
+    background-color:  #add8e68a;
+}
+/*Home Section End*/
+
+/*Services Start Here*/
+#services{
+    background: url('../images/gallery/g4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+    
+    
+}
+.services .overlay{
+        
+    background: rgba(0,0,0,0.6);
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#accordion{
+    background-color:  #add8e68a;
+}
+/*Services End Here*/
+
+/*About Start Here*/
+#about-us{
+    background: url('../images/gallery/g2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+    
+    
+}
+.about-us .overlay{
+        
+    background: rgba(0,0,0,0.6);
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
+.about-info img{
+    border-radius: 50%;
+}
+/*About End Here*/
+
+/*Blog Section Star Here*/
+#blog{
+    background: url('../images/gallery/g5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+    
+    
+}
+.blog .overlay{
+        
+    background: rgba(0,0,0,0.6);
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#blog-pages .card img{
+    height: 250px;
+    
+}
+/*Blog Section End Here*/
+
+/*Contact Section Star Here*/
+#contact-us{
+    background: url('../images/slide/s1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+
+}
+.contact .overlay{
+        
+    background: rgba(0,0,0,0.6);
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+#contact-form{
+
+        background-color:  #add8e68a;
+
+}
+/*Contact Section End Here*/
